@@ -1,0 +1,59 @@
+# Model files and local datasets
+models/
+checkpoints/
+.cache/
+data/models/
+*.safetensors
+*.gguf
+*.ggml
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.npy
+*.npz
+# Native build output
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+*.o
+*.obj
+*.a
+*.so
+*.cubin
+*.fatbin
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Node / Bun
+node_modules/
+dist/
+coverage/
+# Elixir
+_build/
+deps/
+.elixir_ls/
+# Local credentials and mutable data
+.env
+.env.*
+!.env.example
+*secrets*.yaml
+*secrets*.yml
+*secrets*.json
+*.pem
+*.key
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+.direnv/
+result
+result-*
+# Editors
+.idea/
+.DS_Store
